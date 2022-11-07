@@ -1,11 +1,68 @@
-
 /* Fake image */
-.fakeimg {
+
+.fakeimg0 {
+  border-radius: 25px;
+  background-image: url("images/coffeeshop.gif");
   background-color: #7d603e;
   width: 100%;
+  height: 300px;
   padding: 20px;
+  background-blend-mode: luminosity;
+
 }
 
+.fakeimg1 {
+   border-radius: 25px;
+  background-image: url("images/bean.gif");
+  background-color: #7d603e;
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+ background-blend-mode: luminosity;
+}
+
+.fakeimg2 {
+  border-radius: 25px;
+  background-image: url("images/cat.gif");
+  background-color: #7d603e;
+  width: 100%;
+  height:100px;
+  background-blend-mode: luminosity;
+  padding: 20px;
+
+}
+
+.fakeimg3 {
+  border-radius: 25px;
+  background-image: url("images/cake.gif");
+  background-color: #7d603e;
+  width: 100%;
+  height:150px;
+  background-blend-mode: luminosity;
+  padding: 20px;
+
+}
+
+.fakeimg4 {
+  border-radius: 25px;
+  background-image: url("images/ramen2.gif");
+  background-color: #7d603e;
+  width: 100%;
+  height:150px;
+  background-blend-mode: luminosity;
+  padding: 20px;
+
+}
+.fakeimg5 {
+  border-radius: 25px;
+  background-image: url("images/ramenshop.gif");
+  background-color: #7d603e;
+  width: 100%;
+  height:150px;
+  background-blend-mode: luminosity;
+  padding: 20px;
+
+}
 /* Add a card effect for articles */
 .card {
   background-color: #edd3be;
