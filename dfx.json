@@ -1,0 +1,23 @@
+{
+    "canisters": {
+      "ui": {
+        "type": "assets",
+        "source": ["src/ui/assets", "dist"],
+        "dependencies": []
+      }
+    },
+    "defaults": {
+      "build": {
+        "args": "",
+        "packtool": ""
+      }
+    },
+    "dfx": "0.8.0",
+    "networks": {
+      "local": {
+        "bind": "127.0.0.1:8000",
+        "type": "ephemeral"
+      }
+    },
+    "version": 1
+  }
